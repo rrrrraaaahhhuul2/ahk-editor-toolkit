@@ -112,8 +112,6 @@ ExitApp
 RAlt::LWin 
 return
 
-::LLF::LabourNet foundation
-return
 
 ::sp::rephrase to sound pro ""
 return
