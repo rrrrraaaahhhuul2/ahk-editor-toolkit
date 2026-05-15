@@ -16,16 +16,6 @@ Loop, %id%  ; For each AutoHotkey script (normal or compiled):
 	PostMessage, 0x111, 65305,,, ahk_id %this_id%  ; Use 65305 if you prefer Suspend 6 for pause.
 }
 return
- 
-
-
-::r1::rahulrdrocks@gmail.com
-Return
-
-::home1:: H.no 549, Behind ”Keshav Kunj” , Maruti Nagar Heggeri , Gokul Road , Hubli
-Return
-
-
 
 
 ; AutoHotkey Media Keys
@@ -116,16 +106,13 @@ EOF:
 ExitApp
 
 
-; for LF
+; for Work
 
-; LAlt remap to Winkey
+; LAlt remap to Winkey (For some reason, the Windows key on my laptop is not functioning.)
 RAlt::LWin 
 return
 
 ::LLF::LabourNet foundation
-return
-
-::r2::rahul.devagiri@labournetfoundation.in
 return
 
 ::sp::rephrase to sound pro ""
@@ -134,8 +121,6 @@ return
 ::pls::please
 return
 
-::blore::Bengaluru
-Return
 
 ; Remap Copilot key (F23 / SC06E, co pilot key presses this codde +#F23 ) to open clipboard
 +#F23::Send, {#v}
